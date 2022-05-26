@@ -1,0 +1,17 @@
+.headerNav .navbar{
+    background-color: transparent !important;
+}
+#navbarNav{
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+li{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+}
+.imgNavBrand{
+    border-radius: 50px !important;
+}
