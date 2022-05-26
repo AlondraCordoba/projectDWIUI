@@ -6,6 +6,10 @@
 .headerNav .navbar{
     background-color: transparent !important;
 }
+.headerNav {
+    background: url(../assets/img/manchas-acuarela-moradas.jpg) no-repeat center;
+    min-height: 100vh;
+}
 #navbarNav{
     justify-content: center !important;
     align-items: center !important;
@@ -23,22 +27,22 @@ li{
     border-radius: 50px !important;
 }
 .divContainer{
-    margin-top: 5% !important;
+    margin-top: 4% !important;
 }
 .h4Hi{
     margin-left: 30% !important;
     font-family: 'Inconsolata', monospace !important;
-    color:rgb(167, 167, 167);
+    color:rgb(97, 94, 94);
 }
 .h1Name{
     margin-left: 30% !important;
     margin-top: 9% !important;
     text-align: left;
+    color:rgb(63, 58, 58);
 }
 .divIcons{
     margin-left: 30% !important;
     margin-top: 3% !important;
-    color:rgb(167, 167, 167);
 }
 .divIcons i{
     margin-left: 2% !important;
@@ -47,8 +51,41 @@ li{
 }
 .divIcons a{
     text-decoration: none !important;
-    color:rgb(167, 167, 167);
+    font-size: 22px !important;
+    color:rgb(97, 94, 94);
 }
 i:hover{
     cursor: pointer;
+}
+.btn-grad {
+    margin-top: 8% !important;
+    background-image: linear-gradient(to right, #B993D6 0%, #8CA6DB  51%, #B993D6  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-size: 14px !important;
+}
+.btn-grad:hover {
+  background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-grad a{
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: normal !important;
+}
+.containerButton{
+    margin-left: 30% !important;
+}
+.containerHobbies ul{
+    margin-left: 40% !important;
+    background-color: transparent !important;
 }
