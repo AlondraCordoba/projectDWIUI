@@ -45,3 +45,10 @@ li{
     margin-right: 2% !important;
     font-size: 18px !important;
 }
+.divIcons a{
+    text-decoration: none !important;
+    color:rgb(167, 167, 167);
+}
+i:hover{
+    cursor: pointer;
+}
